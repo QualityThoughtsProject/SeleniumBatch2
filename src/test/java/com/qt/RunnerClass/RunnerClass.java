@@ -10,7 +10,6 @@ import io.cucumber.junit.CucumberOptions;
 		features = "FeatureFiles",
 		glue="com.qt.testcases",
 		tags="@test",
-		monochrome = true,
 		plugin = {"pretty","html:target/CucumberReport/Report.html"}
 		)
 public class RunnerClass {
